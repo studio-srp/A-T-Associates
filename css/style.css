@@ -11326,8 +11326,9 @@ h1, h2, h3, h4, h5,
 }
 
 .ftco-navbar-light .navbar-nav > .nav-item.cta > a:hover {
-    background: #304d72;
-    border: 1px solid #304d72;
+    background:  #bea34d;
+    border: 1px solid #bea34d;
+    color: #304d72;
 }
 
 .ftco-navbar-light .navbar-nav > .nav-item.cta.cta-colored a {
@@ -11737,9 +11738,9 @@ h1, h2, h3, h4, h5,
 }
 
 .btn.btn-primary:hover {
-    border: 1px solid #304d72;
-    background: transparent;
-    color: #304d72;
+    border: 1px solid #bea34d !important;
+    background: #bea34d !important;
+    color: #ffffff;
 }
 
 .btn.btn-primary.btn-outline-primary {
@@ -12301,11 +12302,11 @@ textarea.form-control {
 }
 
 .ftco-footer .ftco-footer-widget ul li a:hover {
-    color: #304d72;
+    color: #bea34d;
 }
 
 .ftco-footer .ftco-footer-widget ul li a:hover span {
-    color: #304d72;
+    color: #bea34d;
 }
 
 .ftco-footer .ftco-footer-widget .btn-primary {
@@ -12323,7 +12324,7 @@ textarea.form-control {
 }
 
 .ftco-footer a {
-    color: rgba(255, 255, 255, 0.7);
+    color: #bea34d;
 }
 
 .ftco-footer a:hover {
@@ -12338,7 +12339,7 @@ textarea.form-control {
 }
 
 .ftco-footer .opening-hours h4 {
-    color: #304d72;
+    color: #bea34d;
     font-size: 16px;
 }
 
@@ -12927,6 +12928,10 @@ textarea.form-control {
 
 .contact-section .contact-form {
     width: 100%;
+    width: 100%;
+    background: #fff !important;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
+    padding: 30px;
 }
 
 .block-9 .form-control {
