@@ -11507,7 +11507,7 @@ h1, h2, h3, h4, h5,
     width: 5px;
     height: 100%;
     content: '';
-    background: #304d72;
+    background: #bea34d;
     text-decoration: blink;
     -webkit-animation-name: blinker;
     -webkit-animation-duration: 0.6s;
@@ -11531,13 +11531,13 @@ h1, h2, h3, h4, h5,
 }
 
 .slider-text h1 span {
-    color: #304d72;
+    color: #bea34d;
 }
 
 .slider-text .subheading {
     font-size: 15px;
     color: rgba(255, 255, 255, 0.7);
-    color: #304d72;
+    color: #bea34d;
     text-transform: uppercase;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-weight: 800;
@@ -11546,7 +11546,7 @@ h1, h2, h3, h4, h5,
 .slider-text p {
     font-size: 18px;
     line-height: 1.5;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgb(255, 255, 255);
 }
 
 .slider-text p strong {
