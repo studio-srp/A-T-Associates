@@ -1,0 +1,82 @@
+/*services*/
+.services {
+    position: relative;
+    padding: 30px;
+    margin-bottom: 60px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.services h3 {
+    font-weight: 400;
+}
+
+.services h3 a {
+    color: #31486f;
+}
+
+.services .icon {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+    display: table;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.services:hover .icon{
+    color: #bea34d;
+}
+.services:hover .why-choose-heading{
+    color: #bea34d;
+}
+.services .icon i {
+    display: table-cell;
+    vertical-align: middle;
+    height: 70px;
+    font-size: 60px;
+    line-height: 40px;
+    color: #31486f;
+}
+
+.services:hover, .services:focus {
+    background: #31486f;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.services:hover h3 a, .services:focus h3 a {
+    color: #fff;
+}
+
+.services:hover .icon i, .services:focus .icon i {
+    color: #bea34d;
+}
+
+
+/*counter*/
+#facts .number {
+    font-weight: 600;
+    font-size: 82px;
+    color: #000000;
+}
+
+.facts {
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+  background-image: linear-gradient(0deg, rgba(4, 21, 70, 0.84), rgba(2, 9, 23, 0.97)), url('../images/bg-images/truth-concept-arrangement-with-balance-min.jpg');
+    background-attachment: fixed;
+}
+
+/*banner*/
+.bg-banner{
+    background-image: url('../images/bg-images/gavel-with-books-old-wooden-desk.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
